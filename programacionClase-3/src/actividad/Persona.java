@@ -1,12 +1,8 @@
 package actividad;
 
 public class Persona {
-	private String nombre, apellido;
+	protected String nombre, apellido;
 	
-	public Persona(String nom ,String ape) {
-		this.nombre = nom;
-		this.apellido = ape;
-	} 
 	public void setNombre(String nom){
 		this.nombre = nom;
 	}
@@ -20,8 +16,4 @@ public class Persona {
 		return this.apellido;
 	}
 
-	@Override
-	public String toString() {
-		return "Persona [apellido ="+ apellido+",nombre ="+nombre+"]";
-	}
 }
