@@ -15,5 +15,4 @@ public class Persona {
 	public String getApellido(){
 		return this.apellido;
 	}
-
 }
